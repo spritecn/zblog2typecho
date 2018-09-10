@@ -20,6 +20,6 @@ mysql_database = ''
 table_prefix = 'typecho_'
 
 [post]
-raw_post_id = 1 
+raw_post_id = 0
 #1:文章表直接使用zblog的id,搜索引擎友好
 #0:从当前typecho文章表最大id+1开始
