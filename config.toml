@@ -1,0 +1,25 @@
+[zblog]
+db_type = 'sqlite'
+sqlite_path = 'zb.sqlite.db'
+mysql_host = ''
+mysql_port = ''  #if '' will be 3306
+mysql_user = ''
+mysql_pass = ''
+mysql_database = ''     #数据库名
+table_prefix = 'zbp_'  #表前缀
+
+
+[typecho]
+db_type = 'mysql'
+sqlite_path = ''
+mysql_host = ''
+mysql_port = ''
+mysql_user = ''
+mysql_pass = '*****'
+mysql_database = ''    
+table_prefix = 'typecho_'
+
+[post]
+raw_post_id = 1 
+#1:文章表直接使用zblog的id,搜索引擎友好
+#0:从当前typecho文章表最大id+1开始
