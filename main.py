@@ -66,7 +66,7 @@ def tag_do():
     tcCon.commit()
     
     #fix slug
-    tcCur.execute('update typecho_metas set slug=mid where slug is null')
+    tcCur.execute(f"update {tcTableDict['metas']} set slug=mid where slug is null")
     tcCon.commit()
     
     tcCur.execute(f"select name,mid from {tcTableDict['metas']} where type='tag'")
