@@ -6,8 +6,3 @@ zblog To typecho writen by python3.6+
 2. ```pip install pymysql```
 3. 编辑config.toml,配置zblog数据库连接信息和typecho数据库连接信息(如果数据库是sqlite的需要下载到本地）
 4. ```python main.py```
-
-# 问题反馈
-[http://www.fantansy.cn/index.php/332.html]
-# 个人小博
-[http://www.fantansy.cn] 刚从zblog迁移过来的
